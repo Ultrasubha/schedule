@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="htmlcss bootstrap, multi level menu, submenu, treeview nav menu examples,Schedule" />
+	<meta name="description" content="Schedule to store and link all my data for first access" />
+
+	<title>schedule</title>
+	<link rel="icon" type="image/gif/png" href="cat1.png">
+
+	<!-- Imported scripts and styles-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+		<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+	<!-- My script and style-->
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+
+	<header class="section-header py-4">
+		<div class="container text-center">
+			<script>
+				const bani = ["Let's Conquor","Today we Rule",
+				"Divide and Conquor",
+				"Let's bring some chaos",
+				"Everything should be in order. Let's Sort",
+				"What's today's plan Sir?",
+				"Will we be doing a new project today Sir?",
+				"Aiming for Rank-1 today Sir?",
+				"How are we planning to upskill today Sir?",
+				"Introduce some anarchy",
+				"Fake it till you make it",
+				"Chaos,Order and Causality",
+				"We are the rulers of this world"];
+				document.write("<h2>" + getRandomItem(bani) + "</h2>");	
+			</script>
+		</div>
+	</header> <!-- section-header.// -->
+
+
+
+	<div class="container">
+
+		<!-- ============= COMPONENT ============== -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+			<div class="container-fluid">
+				<a class="navbar-brand fa fa-user" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="main_nav">
+
+
+					<ul class="navbar-nav">
+						<!--<li class="nav-item"><a class="nav-link" href="#"> About </a></li>-->
+						<li class="nav-item dropdown gap">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Learn </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="https://mega.nz/folder/JoByyL4S#EvZslGmnSo7mlf45wU5XxA"> Coding Ninjas </a></li>
+								<li><a class="dropdown-item" href="#"> Udemy &raquo; </a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/unreal-engine-the-ultimate-game-developer-course/">Unreal</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/artificial-intelligence-in-unity/">AI in Unity</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/mastering-3d-animation-in-unity/">Animation in Unity</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/100-days-of-code/">Python</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">Node.js</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">React</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/">Flutter</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/build-your-blockchain-az/">Blockchain</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/datastructurescncpp/">Data Structures</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/the-bible-of-algorithms-and-interview-questions/">Competitive Coding</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/">Ethereum and Solidity</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/ableton-live-11-course/">Ableton Live 11</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/perfect-pronunciation-british-english/">English Pronunciation</a></li>
+										<li><a class="dropdown-item" href="https://www.udemy.com/course/japanese-n2-course/">Japanese N2</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="#"> Youtube &raquo; </a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="#"> DSA &raquo; </a>
+											<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">DSA 6.006 MIT</a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLkToMFwOtNHiJtcBu0piSLKnLVGOF9vaV">DSA 6.046 MIT</a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"> Abdul sir Algorithm </a></li>
+											</ul>
+										</li>
+										<li><a class="dropdown-item" href="#"> IOT &raquo; </a>
+											<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLpksGv8aG4d9iI18TbELh4P8C6MhSq3Vs"> NodeMCU </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63cUdAG3v311Vl72ozOiK25"> Aerodynamics MIT </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=0DnflN9C3cc"> Aerodynamics </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=CrwWjMvhaPk"> PixHawk Flight </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=kEttqWJrdww"> Solar Battery Charger </a></li>
+											</ul>
+										</li>
+										<li><a class="dropdown-item" href="#"> Game Design &raquo; </a>
+											<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="https://www.youtube.com/results?search_query=gimp+tutorial"> Gimp </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLX2vGYjWbI0QBJUI5wI3lBTaz85k37dwo"> Flappy Bird </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=uXRURWwabF4"> Unity Profiling </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLX_e_NmbooAm28OkoutuS2FKl70gTtUDW"> Unreal Sequencer </a></li>
+											</ul>
+										</li>
+										<li><a class="dropdown-item" href="#"> AI &raquo; </a>
+											<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg"> Chatbot </a></li>
+												<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PL5rWfvZIL-NpFXM9nFr15RmEEh4F4ePZW"> Voice Assistant </a></li>
+											</ul>
+										</li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=FEFXjRoac_U"> GO </a></li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLDN4rrl48XKoOSTnq72gar56u7XspkCfe"> Java </a></li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=FIZVKteEFyk"> C# Async </a></li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PL6n9fhu94yhWi8K02Eqxp3Xyh_OmQ0Rp6"> LINQ </a></li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=77W5jXVeIUA"> Ursina </a></li>
+										<li><a class="dropdown-item" href="https://youtube.com/playlist?list=PLzg7Nd9p7088xrvnbRrncBOn0IiTbgfhd"> Cisco packet tracer </a></li>
+										<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=QyFcl_Fba-k"> Github Static pages </a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="#"> NPTEL &raquo;</a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="https://nptel.ac.in/courses/106/102/106102220/">AI</a></li>
+										<li><a class="dropdown-item" href="https://nptel.ac.in/courses/106/104/106104233/">Probability</a></li>
+										<li><a class="dropdown-item" href="https://nptel.ac.in/courses/106/105/106105195/">Industry 4.0</a></li>
+										<li><a class="dropdown-item" href="https://nptel.ac.in/courses/106/106/106106231/">Competitive Coding</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="https://www.coursera.org/learn/aws-cloud-technical-essentials/home/welcome"> Coursera </a></li>
+								<li><a class="dropdown-item" href="https://learn.unity.com/course/create-with-code?uv=2020.3"> Unity Projects </a></li>
+								<li><a class="dropdown-item" href="https://greenrain.io/unreal-engine-training/"> Green Rain </a></li>
+								<li><a class="dropdown-item" href="https://academy.zenva.com/my-courses/"> Zenva </a></li>
+								<li><a class="dropdown-item" href="https://www.h3dlearn.com/courses"> Holistic3D </a></li>
+								<li><a class="dropdown-item" href="https://game.courses/courses/mastery-course/"> Unity with Jason </a></li>
+								<li><a class="dropdown-item" href="https://codedamn.com/100-days-of-projects"> CodeDamn </a></li>
+								<li><a class="dropdown-item" href="https://learn.futureskillsprime.in/"> futureskillsprime </a></li>
+								<li><a class="dropdown-item" href="https://sites.google.com/view/phonsa/teachings?authuser=0"> Software Engr. </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/channel/UCT3m5fB-w15Ph8ZJd1zCeuA/playlists"> Playlist </a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown gap">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Code </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="https://www.hackerrank.com/dashboard"> HackerRank </a></li>
+								<li><a class="dropdown-item" href="https://leetcode.com/#"> LeetCode </a></li>
+								<li><a class="dropdown-item" href="https://www.codechef.com/"> CodeChef </a></li>
+								<li><a class="dropdown-item" href="https://codeforces.com/"> CodeForces </a></li>
+								<li><a class="dropdown-item" href="https://www.prepbytes.com/"> PrepBytes </a></li>
+								<li><a class="dropdown-item" href="https://my.newtonschool.co/dashboard/"> NewtonSchool </a></li>
+								<li><a class="dropdown-item" href="https://a2oj.com/"> A2OJ </a></li>
+								<li><a class="dropdown-item" href="https://www.spoj.com/problems/classical/"> SPOJ </a></li>
+								<li><a class="dropdown-item" href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8"> UVa </a></li>
+								<li><a class="dropdown-item" href="#"> Geeks For Geeks &raquo;</a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="https://practice.geeksforgeeks.org/problem-of-the-day">POTD</a></li>
+										<li><a class="dropdown-item" href="https://practice.geeksforgeeks.org/explore/?page=1">Explore</a></li>
+										<li><a class="dropdown-item" href="https://practice.geeksforgeeks.org/topic-tags/?ref=shm">Topic Wise</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown gap">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> CTF </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#"> VulnHub </a></li>
+								<li><a class="dropdown-item" href="#"> TryHackMe </a></li>
+								<li><a class="dropdown-item" href="#"> HackTheBox </a></li>
+								<li><a class="dropdown-item" href="#"> OverTheWire </a></li>
+								<li><a class="dropdown-item" href="#"> Natas </a></li>
+								<li><a class="dropdown-item" href="#"> HITCOIN </a></li>
+								<li><a class="dropdown-item" href="#"> GoogleCTF </a></li>
+								<li><a class="dropdown-item" href="#"> PicoCTF </a></li>
+								<li><a class="dropdown-item" href="#"> Hacker101 </a></li>
+							</ul>
+						</li>
+						<li class="nav-item active gap"> <a class="nav-link" href="https://myanimelist.net/"> MAL </a> </li>
+						<li class="nav-item dropdown gap">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Music </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=UAm0aWvzFI8"> The Avengers </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=6zTc2hD2npA"> Pirates of the Caribbean </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=2vvs4__2XRI"> Intriguing Possibilities </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=AU1hZ9OA7f0&t=1389s"> Hand Covers Bruise </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=VMRiqrGFzY8&t=469s"> Coding enthu </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=60mLvBWOMb4&t=941s"> Desu Desu </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=HSOtku1j600&t=598s"> 2 Hour Beautiful Piano </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=7T5MCYSEm7c"> Nightcore Japanese </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=hj83cwfOF3Y"> Peaceful Piano & Soft Rain </a></li>
+								<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=luUnTc_9hTY"> Leonardo's Inventions </a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown gap">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Resources </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="https://www.risingstars-uk.com/blog/march-2018/blog-march-2018-magic-maths-blog"> Tricks </a></li>
+								<li><a class="dropdown-item" href="https://github.com/uvipen/AirGesture"> AirGesture </a></li>
+								<li><a class="dropdown-item" href="https://dmathematics.blogspot.com/"> Maths </a></li>
+								<li><a class="dropdown-item" href="#"> WebDev &raquo;</a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> CSS FlexBox </a></li>
+										<li><a class="dropdown-item" href="https://codingheroes.io/resources/"> Jonas </a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+				</div> <!-- navbar-collapse.// -->
+			</div> <!-- container-fluid.// -->
+		</nav>
+
+		<!-- ============= COMPONENT END// ============== btn btn-success-->
+
+		<section class="section-content py-5">
+			<h6 class="text-success"> Important Topics to study </h6>
+			<ul>
+				<li>Brute Force</li>
+				<li>Naive String Matching</li>
+				<li>Robin Karp</li>
+				<li>Longest Proper Prefix Suffix</li>
+				<li>Exhaustive Search</li>
+			</ul>
+			<h6 class="text-success"> Upcoming Topics </h6>
+			<ul>
+				<li class="text-primary">OS</li>
+				<ol>
+					<li>pre emptive and<br> non premptive</li>
+					<li><a href="https://youtu.be/ub5A_yfaRdg">CPU scheduling</a></li>
+				</ol>
+			</ul>
+			<div class="container text-center">
+				<a href="https://www.instagram.com/" class="btn btn-white fa fa-instagram s1" style="color:red"></a>
+				<a href="https://www.linkedin.com/feed/" class="btn btn-white fa fa-linkedin-square s1" style="color:MidnightBlue"></a>
+				<a href="https://github.com/Ultrasubha?tab=repositories&q=&type=source&language=&sort=" class="btn btn-white fa fa-github s1"></a>
+				<a href="https://mail.google.com/mail/u/1/#inbox" class="btn btn-white fa fa-envelope s1" style="color:brown"></a>
+				<a href="https://drive.google.com/drive/folders/17x-bFXPiQy7PzwLkdI7mXyQgD3HiYFv3" class="btn btn-white fa fa-book s1" style="color:BurlyWood"></a>
+				<a href="https://jp.quora.com/" class="btn btn-white fa fa-quora s1" style="color:maroon"></a>
+				<a href="https://www.reddit.com/" class="btn btn-white fa fa-reddit s1" style="color:red"></a>
+				<a href="https://stackoverflow.com/" class="btn btn-white fa fa-stack-overflow s1" style="color:orange"></a>
+				<a href="https://stackexchange.com/" class="btn btn-white fa fa-stack-exchange s1" style="color:navy"></a>
+				<a href="https://twitter.com/home" class="btn btn-white fa fa-twitter s1" style="color:SkyBlue;"></a>
+				<a href="https://dev.to/" style=color:black><span class="iconify" data-icon="mdi:dev-to" data-width="48"></span></a>
+				<a href="https://medium.com/" style=color:black><span class="iconify" data-icon="logos:medium-icon" data-width="48"></span></a>
+			</div>
+		</section>
+			<!--https://icon-sets.iconify.design/logos/medium-icon/
+				https://getbootstrap.com/docs/4.0/utilities/colors/
+				https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp
+				https://www.w3schools.com/charsets/ref_html_entities_4.asp
+				<footer class="text-muted">A product of Guava-Slice</footer>-->
+	</div><!-- container //  -->
+</body>
+
+</html>
