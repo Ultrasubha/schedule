@@ -26,9 +26,8 @@ pre {
 }
 
 .gap {
-	padding-left: 10%;
-	padding-right: 10%;
 	border-right: 1px solid gray;
+	border-left: 1px solid gray;
 }
 
 .carousel{
