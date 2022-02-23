@@ -26,9 +26,20 @@ pre {
 }
 
 .gap {
-	padding-left: 14%;
-	padding-right: 14%;
+	padding-left: 10%;
+	padding-right: 10%;
 	border-right: 1px solid gray;
+}
+
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 300px;
+}
+.carousel-caption{
+  color: #fff;
+  top: 50%;
 }
 
 
