@@ -78,13 +78,13 @@
 			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
-				"Feb 26 @ 8:00 pm @ Lunchtime @ 3hr @ CodeChef",
-				"Feb 28 @ 9:30 am @ INT404 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
-				"Mar 1 @ 9:30 am @ CSE316 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
-				"Mar 2 @ 9:30 am @ CSE306 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
-				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
-				"Mar 4 @ 9:30 am @ MTH302 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
-				"Mar 5 @ 9:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Feb 28 @ 8:00 pm @ Lunchtime @ 3hr @ CodeChef",
+				"Feb 28 @ 9:30 am @ INT404 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 1 @ 9:30 am @ CSE316 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 2 @ 9:30 am @ CSE306 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 4 @ 9:30 am @ MTH302 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 5 @ 9:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
 			];
 			
@@ -93,7 +93,10 @@
 				let tupleStrArr = Tasktuples[task].split("@");
 				
 				for(column=0;column<5;column++)
-					tableStr+="<td>"+tupleStrArr[column]+"</td>";
+					if(tupleStrArr[5]=="LPU")
+						tableStr+="<td><b>"+tupleStrArr[column]+"</b></td>";
+					else
+						tableStr+="<td><i>"+tupleStrArr[column]+"</i></td>";
 				tableStr+="</tr>";
 				
 			}
