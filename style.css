@@ -40,7 +40,34 @@ pre {
   color: #fff;
   top: 50%;
 }
-
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:visited {
+	color: navy;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:active {
+	color: indianred;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+table, th, td {
+	border:4px double indigo;
+	background-color: wheat;
+	text-align: center;
+}
+th{
+	background-color: lightblue;
+}
 
 
 /* ============ desktop view ============ */

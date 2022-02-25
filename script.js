@@ -60,6 +60,7 @@
 			"“Nothing is insurmountable, Nothing is unassailable”",
 			"“Surpass your limits, surpass it now”",
 			"“Kimino ikigai wa nanda?”",
+			"Have faith in your abilities.It won't fail you",
 			"Let's Conquor","Today we Rule",
 			"Divide and Conquor",
 			"Let's bring some chaos",
@@ -73,4 +74,28 @@
 			"Chaos,Order and Causality",
 			"We are the rulers of this world"];
 			document.getElementById("Bani").innerHTML = "<h2>" + getRandomItem(bani) + "</h2>";
+
+			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
+			const Tasktuples = [
+				//"Date @ Time @ Task @ Duration @ Venue",
+				"Feb 26 @ 8:00 pm @ Lunchtime @ 3hr @ CodeChef",
+				"Feb 28 @ 9:30 am @ INT404 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Mar 1 @ 9:30 am @ CSE316 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Mar 2 @ 9:30 am @ CSE306 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Mar 4 @ 9:30 am @ MTH302 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"Mar 5 @ 9:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>",
+				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
+			];
+			
+			for(task=0;task<Tasktuples.length;task++){
+				tableStr+="<tr><td>"+(task+1)+"</td>";
+				let tupleStrArr = Tasktuples[task].split("@");
+				
+				for(column=0;column<5;column++)
+					tableStr+="<td>"+tupleStrArr[column]+"</td>";
+				tableStr+="</tr>";
+				
+			}
+			document.getElementById("scheduler1").innerHTML = tableStr;
 	}
