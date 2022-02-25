@@ -21,36 +21,8 @@
 
 </head>
 
-<body>
-
-	<header class="section-header py-4">
-		<div class="container text-center">
-			<script>
-				const bani = [
-				"“Anything is edible if you deep fry it long enough.” - Richard Watterson",
-				"“An Appalling performance is a cumulative outcome of several Abysmal practices.”",
-				"“Nothing is insurmountable, Nothing is unassailable”",
-				"“Surpass your limits, surpass it now”",
-				"“Kimino ikigai wa nanda?”",
-				"Let's Conquor","Today we Rule",
-				"Divide and Conquor",
-				"Let's bring some chaos",
-				"Everything should be in order. Let's Sort",
-				"What's today's plan Sir?",
-				"Will we be doing a new project today Sir?",
-				"Aiming for Rank-1 today Sir?",
-				"How are we planning to upskill today Sir?",
-				"Lets introduce some anarchy",
-				"Fake it till you make it",
-				"Chaos,Order and Causality",
-				"We are the rulers of this world"];
-				document.write("<h2>" + getRandomItem(bani) + "</h2>");	
-			</script>
-		</div>
-	</header> <!-- section-header.// -->
-
-
-
+<body onload="init()">
+	<header class="section-header py-4 text-center"  id="Bani"></header>
 	<div class="container">
 
 		<!-- ============= COMPONENT ============== -->
@@ -298,7 +270,7 @@
 			</div> <!-- container-fluid.// -->
 		</nav>
 
-		<!-- ============= COMPONENT END// ============== btn btn-success-->
+		<!-- ============= COMPONENT END// ============== -->
 
 		<div class="section-content py-5">
 			<h6 class="text-success"> Important Topics to study </h6>

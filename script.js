@@ -53,3 +53,24 @@
 		const item = arr[randomIndex];
 		return item;
 	}
+	function init() {
+		const bani = [
+			"“Anything is edible if you deep fry it long enough.” - Richard Watterson",
+			"“An Appalling performance is a cumulative outcome of several Abysmal practices.”",
+			"“Nothing is insurmountable, Nothing is unassailable”",
+			"“Surpass your limits, surpass it now”",
+			"“Kimino ikigai wa nanda?”",
+			"Let's Conquor","Today we Rule",
+			"Divide and Conquor",
+			"Let's bring some chaos",
+			"Everything should be in order. Let's Sort",
+			"What's today's plan Sir?",
+			"Will we be doing a new project today Sir?",
+			"Aiming for Rank-1 today Sir?",
+			"How are we planning to upskill today Sir?",
+			"Lets introduce some anarchy",
+			"Fake it till you make it",
+			"Chaos,Order and Causality",
+			"We are the rulers of this world"];
+			document.getElementById("Bani").innerHTML = "<h2>" + getRandomItem(bani) + "</h2>";
+	}
