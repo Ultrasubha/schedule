@@ -85,8 +85,9 @@
 				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 4 @ 9:30 am @ MTH302 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 5 @ 9:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 7 @ NA @ CSE310 | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 7 @ NA @ CSE310 | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 12 @ NA @ CSE408 | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 21 @ NA @ CSE310 | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
 			];
 			
