@@ -78,15 +78,20 @@
 			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
+				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
 				"Feb 28 @ 8:00 pm @ Lunchtime @ 3hr @ <a href=\"https://www.codechef.com/LTIME105C?order=desc&sortBy=successful_submissions\">CodeChef</a>",
-				"Mar 1 @ 9:30 am @ CSE316 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 2 @ 9:30 am @ CSE306 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 4 @ 9:30 am @ MTH302 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 1 @ 9:30 am @ CSE316 (OS) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 2 @ 9:30 am @ CSE306 (Networks) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 3 @ 9:30 am @ CSE408 (Algo) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 4 @ 9:30 am @ MTH302 (Math) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 5 @ 9:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 7 @ NA @ CSE310 | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 12 @ NA @ CSE408 | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 21 @ NA @ CSE310 | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 7 @ @ CSE310 (Java) | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 12 @ @ CSE408 (Algo) | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 21 @ @ CSE310 (Java) | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 21 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
+				"Mar 22 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
+				"Mar 23 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
+				"Mar 24 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
 			];
 			
