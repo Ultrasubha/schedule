@@ -79,7 +79,6 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Feb 28 @ 8:00 pm @ Lunchtime @ 3hr @ <a href=\"https://www.codechef.com/LTIME105C?order=desc&sortBy=successful_submissions\">CodeChef</a>",
 				"Mar 1 @ 9:30 am @ CSE316 (OS) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 2 @ 9:30 am @ CSE306 (Networks) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 3 @ 9:30 am @ CSE408 (Algo) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
@@ -96,14 +95,14 @@
 			];
 			
 			for(task=0;task<Tasktuples.length;task++){
-				tableStr+="<tr><td>"+(task+1)+"</td>";
 				let tupleStrArr = Tasktuples[task].split("@");
+				if(tupleStrArr[5]=="LPU")
+					tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
+				else
+					tableStr+="<tr class=\"futsu\"><td>"+(task+1)+"</td>";
 				
 				for(column=0;column<5;column++)
-					if(tupleStrArr[5]=="LPU")
-						tableStr+="<td><b>"+tupleStrArr[column]+"</b></td>";
-					else
-						tableStr+="<td><i>"+tupleStrArr[column]+"</i></td>";
+						tableStr+="<td>"+tupleStrArr[column]+"</td>";
 				tableStr+="</tr>";
 				
 			}

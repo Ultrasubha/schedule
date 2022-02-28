@@ -62,13 +62,21 @@ a:link {
   }
 table, th, td {
 	border:4px double indigo;
-	background-color: wheat;
 	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 5px;
 }
 th{
 	background-color: lightblue;
 }
-
+.LPU {
+	background-color: lightgray;
+	font-style: italic;
+}
+.futsu {
+	background-color: silver;
+	font-weight: bold;
+}
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
