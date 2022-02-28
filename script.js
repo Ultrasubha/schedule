@@ -78,8 +78,7 @@
 			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
-				"Feb 28 @ 8:00 pm @ Lunchtime @ 3hr @ CodeChef",
-				"Feb 28 @ 9:30 am @ INT404 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Feb 28 @ 8:00 pm @ Lunchtime @ 3hr @ <a href=\"https://www.codechef.com/LTIME105C?order=desc&sortBy=successful_submissions\">CodeChef</a>",
 				"Mar 1 @ 9:30 am @ CSE316 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 2 @ 9:30 am @ CSE306 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 3 @ 9:30 am @ CSE408 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
