@@ -94,6 +94,7 @@
 				"Mar 23 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 24 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 26 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
+				"Apr 2 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
 				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
 			];
 			
