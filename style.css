@@ -63,7 +63,6 @@ a:link {
 table, th, td {
 	border:4px double indigo;
 	text-align: center;
-	letter-spacing: 1px;
 	word-spacing: 5px;
 }
 th{
@@ -72,6 +71,11 @@ th{
 .LPU {
 	background-color: lightgray;
 	font-style: italic;
+}
+.Thapar {
+	background-color: LightSlateGrey;
+	font-weight: bold;
+	/*letter-spacing: 2px;*/
 }
 .futsu {
 	background-color: silver;

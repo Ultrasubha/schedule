@@ -83,27 +83,35 @@
 				"Mar 3 @ 9:30 am @ CSE408 (Algo) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 4 @ 11:30 am @ MTH302 (Math) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 5 @ 11:30 am @ PEV108 @ 1.5 hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 5 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
+				"Mar 5 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
 				"Mar 7 @ @ CSE310 (Java) | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 12 @ @ CSE408 (Algo) | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 12 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
-				"Mar 19 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
+				"Mar 12 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
+				"Mar 19 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
 				"Mar 21 @ @ CSE310 (Java) | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 21 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 22 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 23 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 24 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
-				"Mar 26 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
-				"Apr 2 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom",
+				"Mar 26 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
+				"Apr 2 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
 				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
 			];
 			
 			for(task=0;task<Tasktuples.length;task++){
 				let tupleStrArr = Tasktuples[task].split("@");
-				if(tupleStrArr[5]=="LPU")
-					tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
-				else
-					tableStr+="<tr class=\"futsu\"><td>"+(task+1)+"</td>";
+
+				switch (tupleStrArr[5]) {
+					case "LPU":
+						tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
+						break;
+					case "Thapar":
+						tableStr+="<tr class=\"Thapar\"><td>"+(task+1)+"</td>";
+						break;
+					default:
+						tableStr+="<tr class=\"futsu\"><td>"+(task+1)+"</td>";
+						break;
+				}
 				
 				for(column=0;column<5;column++)
 						tableStr+="<td>"+tupleStrArr[column]+"</td>";
