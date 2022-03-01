@@ -79,7 +79,6 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Mar 1 @ 9:30 am @ CSE316 (OS) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 2 @ 9:30 am @ CSE306 (Networks) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 3 @ 9:30 am @ CSE408 (Algo) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 4 @ 11:30 am @ MTH302 (Math) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
