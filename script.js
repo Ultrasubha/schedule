@@ -82,20 +82,40 @@
 				"Mar 2 @ 9:30 am @ CSE306 (Networks) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 3 @ 9:30 am @ CSE408 (Algo) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 4 @ 11:30 am @ MTH302 (Math) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 5 @ 11:30 am @ PEV108 @ 1.5 hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 5 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
+				"Mar 5 @ 11:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 5 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Mar 5 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com/COOK139?itm_medium=hpevents&itm_campaign=COOK139\">MyClass</a>@competition",
+				"Mar 7 @ 10:00 am @ HackWithInfy @ 3hrs @ @competition",
 				"Mar 7 @ @ CSE310 (Java) | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 12 @ @ CSE408 (Algo) | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 12 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
-				"Mar 19 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
+				"Mar 12 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Mar 19 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Mar 20 @ 9:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round A </a> @competition",
 				"Mar 21 @ @ CSE310 (Java) | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 21 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 22 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 23 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 24 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
-				"Mar 26 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
-				"Apr 2 @ 7:00 pm @ Thapar ML @ 1hr @ Zoom @Thapar",
-				"July 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
+				"Mar 26 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 2 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 9 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 16 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 23 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 30 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"May 7 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"May 14 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"May 21 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"May 28 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Apr 24 @ 4:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round B </a> @competition",
+				"May 22 @ 4:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round C </a> @competition",
+				"Jun 27 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 2</a> @competition",
+				"Jul 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
+				"Jul 10 @ 10:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round D </a> @competition",
+				"Aug 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round E </a> @competition",
+				"Aug 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @competition",
+				"Sep 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round F </a> @competition",
+				"Oct 15 @ 5:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round G </a> @competition",
+				"Nov 12 @ 8:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round H </a> @competition",
 			];
 			
 			for(task=0;task<Tasktuples.length;task++){
@@ -107,6 +127,9 @@
 						break;
 					case "Thapar":
 						tableStr+="<tr class=\"Thapar\"><td>"+(task+1)+"</td>";
+						break;
+					case "competition":
+						tableStr+="<tr class=\"competition\"><td>"+(task+1)+"</td>";
 						break;
 					default:
 						tableStr+="<tr class=\"futsu\"><td>"+(task+1)+"</td>";

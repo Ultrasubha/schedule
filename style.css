@@ -61,7 +61,7 @@ a:link {
 	text-decoration: underline;
   }
 table, th, td {
-	border:4px double indigo;
+	border:3px double indigo;
 	text-align: center;
 	word-spacing: 5px;
 }
@@ -73,12 +73,16 @@ th{
 	font-style: italic;
 }
 .Thapar {
-	background-color: LightSlateGrey;
+	background-color: RosyBrown;
 	font-weight: bold;
 	/*letter-spacing: 2px;*/
 }
 .futsu {
 	background-color: silver;
+	font-weight: bold;
+}
+.competition {
+	background-color: darkgray;
 	font-weight: bold;
 }
 
