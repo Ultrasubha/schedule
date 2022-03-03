@@ -70,11 +70,11 @@ th{
 	color: beige;
 }
 .LPU {
-	background-color: lightgray;
+	background-color: RosyBrown;
 	font-style: italic;
 }
 .Thapar {
-	background-color: RosyBrown;
+	background-color: lightgray;
 	font-weight: bold;
 	/*letter-spacing: 2px;*/
 }
@@ -83,7 +83,7 @@ th{
 	font-weight: bold;
 }
 .competition {
-	background-color: darkgray;
+	background-color: lightgreen;
 	font-weight: bold;
 }
 
