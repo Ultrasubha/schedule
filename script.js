@@ -60,6 +60,7 @@
 			"“Nothing is insurmountable, Nothing is unassailable”",
 			"“Surpass your limits, surpass it now”",
 			"“Kimino ikigai wa nanda?”",
+			"Always envisage the probabilities of all possibiliies",
 			"Have faith in your abilities.It won't fail you",
 			"Let's Conquor","Today we Rule",
 			"Divide and Conquor",
@@ -79,31 +80,26 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Mar 5 @ 11:30 am @ PEV108 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 5 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
 				"Mar 5 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com/COOK139?itm_medium=hpevents&itm_campaign=COOK139\">CodeChef</a>@competition",
 				"Mar 7 @ 10:00 am @ HackWithInfy @ 3hrs @ @competition",
 				"Mar 7 @ 6:30pm @ CSE310 (Java) | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 9 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 11 @ 3:00 pm @ Engg. Minor @ 2hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 12 @ @ CSE408 (Algo) | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
-				"Mar 12 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Mar 19 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Mar 11 @ 8:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Mar 12 @ - @ CSE408 (Algo) | CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 16 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Mar 19 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 20 @ 9:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round A </a> @competition",
 				"Mar 21 @ @ CSE310 (Java) | CBT4 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 21 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 22 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
 				"Mar 23 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
+				"Mar 23 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 24 @ All Day @ Nvidia GTC @ All Day @ <a href=\"https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap?tab.day=20220321\"> Click Here </a>",
-				"Mar 26 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Apr 2 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Apr 9 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Apr 16 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Apr 23 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"Apr 30 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"May 7 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"May 14 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"May 21 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
-				"May 28 @ 7:00 pm @ Thapar ML @ 1.5hrs @ Zoom @Thapar",
+				"Mar 25 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Mar 30 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Mar 30 @ - @ Coursera @ - @ - @Deadline",
+				"Apr 15 @ - @ Unreal Basic @ - @ - @Deadline",
 				"Apr 24 @ 4:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round B </a> @competition",
 				"May 22 @ 4:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round C </a> @competition",
 				"Jun 27 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 2</a> @competition",
@@ -123,8 +119,8 @@
 					case "LPU":
 						tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
 						break;
-					case "Thapar":
-						tableStr+="<tr class=\"Thapar\"><td>"+(task+1)+"</td>";
+					case "Deadline":
+						tableStr+="<tr class=\"Deadline\"><td>"+(task+1)+"</td>";
 						break;
 					case "competition":
 						tableStr+="<tr class=\"competition\"><td>"+(task+1)+"</td>";
