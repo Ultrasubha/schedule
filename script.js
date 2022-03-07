@@ -80,7 +80,6 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Mar 7 @ 10:00 am @ HackWithInfy @ 3hrs @ @competition",
 				"Mar 7 @ 6:30pm @ CSE310 (Java) | CBT3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 9 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 11 @ 3:00 pm @ Engg. Minor @ 2hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
