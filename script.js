@@ -62,6 +62,7 @@
 			"“Kimino ikigai wa nanda?”",
 			"Always envisage the probabilities of all possibiliies",
 			"Have faith in your abilities.It won't fail you",
+			"Have faith in your conviction",
 			"Let's Conquor","Today we Rule",
 			"Divide and Conquor",
 			"Let's bring some chaos",
@@ -80,7 +81,6 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Mar 14 @ 3:00 pm @ Long Challenge @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 16 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 19 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 20 @ 9:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round A </a> @competition",
