@@ -93,7 +93,7 @@
 				"Mar 25 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 30 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Mar 30 @ - @ Coursera @ - @ - @Deadline",
-				"Mar 31 @ 9:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Mar 31 @ 9:00 pm @ NewtonSchool @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/jtrr9p6u9dat/assignment/rkp1ithkwgfx/dashboard/?tab=instructions\"> NewtonSchool </a>@competition",
 				"Apr 15 @ - @ Unreal Basic @ - @ - @Deadline",
 				"Apr 24 @ 4:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round B </a> @competition",
 				"May 22 @ 4:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round C </a> @competition",
