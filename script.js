@@ -94,6 +94,7 @@
 				"Mar 30 @ - @ Coursera @ - @ - @Deadline",
 				"Mar 31 @ 9:00 pm @ NewtonSchool @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/jtrr9p6u9dat/assignment/rkp1ithkwgfx/dashboard/?tab=instructions\"> NewtonSchool </a>@competition",
 				"Apr 2 @ 8:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"Apr 4 @ - @ Java CBT 5 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 6 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 8 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 13 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
