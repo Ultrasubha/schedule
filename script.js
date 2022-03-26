@@ -83,7 +83,7 @@
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
 				"Mar 25 @ - @ GDSC Mini-Hackathon @ - @ - @Deadline",
 				"Mar 25 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Mar 27 @ 10:00 am @ PEV CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Mar 28 @ 6:00 pm @ PEV CA @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 28 @ - @ Network Assignment @ - @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Mar 29 @ - @ Sharda CTF @ 2days @ <a href=\"https://shardacyber.com/shardactf.html\">Sharda CTF</a>@competition",
 				"Mar 30 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
