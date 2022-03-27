@@ -13,13 +13,6 @@ h2 {
 	text-shadow: 2px 2px 3px SteelBlue;
 }
 
-pre {
-	margin-top: 5%;
-	margin-left: 12%;
-	font-weight: bold;
-	font-size: large;
-}
-
 .s1 {
 	text-shadow: 2px 1px 3px black;
 	font-size:48px;
@@ -30,16 +23,6 @@ pre {
 	border-left: 1px solid gray;
 }
 
-.carousel{
-  margin-top: 50px;
-}
-.carousel-inner{
-  height: 300px;
-}
-.carousel-caption{
-  color: #fff;
-  top: 50%;
-}
 a:link {
 	color: green;
 	background-color: transparent;
