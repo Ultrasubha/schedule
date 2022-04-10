@@ -81,11 +81,11 @@
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
 				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
-				"Apr 10 @ 3:00 pm @ GeeksForGeeks @ 2hrs @ <a href=\"https://practice.geeksforgeeks.org/contest/coders-combat-battlefield-lpu#\">GeeksForGeeks</a>@competition",
 				"Apr 11 @ 1:00 pm @ Network Practical @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 13 @ 11:00 am @ Math CA3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 13 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 15 @ - @ Unreal Basic @ - @ - @Deadline",
+				"Apr 16 @ 6:00 pm @ GeeksForGeeks @ 2hrs @ <a href=\"https://practice.geeksforgeeks.org/contest/coders-combat-battlefield-lpu#\">GeeksForGeeks</a>@competition",
 				"Apr 18 @ 7:00 pm @ PEV (Analogy) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 20 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 21 @ 1:00 pm @ Unity MCQ @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
