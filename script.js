@@ -85,6 +85,7 @@
 				"Apr 16 @ 6:00 pm @ GeeksForGeeks @ 2hrs @ <a href=\"https://practice.geeksforgeeks.org/contest/coders-combat-battlefield-lpu#\">GeeksForGeeks</a>@competition",
 				"Apr 18 @ 3:00 pm @ Networking CA3 @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 18 @ 7:00 pm @ PEV (Analogy) @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
+				"Apr 20 @ 10:30 am @ GDSC Interview @ 30mins @ <a href=\"https://meet.google.com/\">Gmeet</a>@Deadline",
 				"Apr 20 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 21 @ 1:00 pm @ Unity MCQ @ 1hr @ <a href=\"https://myclass.lpu.in/\">MyClass</a>@LPU",
 				"Apr 22 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
