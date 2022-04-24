@@ -79,15 +79,30 @@
 
 			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
-				//"Date @ Time @ Task @ Duration @ Venue",
-				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
+				//"Date @ Time @ Task @ Duration @ Venue @ Type",
+				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a> @ Type",
+				/*
+					Conventions (for last space after @) -->
+					1) LPU = Anything LPU related (Exam/assignment/CA etc)
+					2) LiveEvent = Seminar/Webinar/Any Live session
+					3) competition = Any Coding competition/ Hackathon etc
+					4) Blank/Anything = Any other event
+				*/
+				"Apr 27 @ 9:00 am @ Unity ETE @ 3hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"Apr 27 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 29 @ 9:00 pm @ NewtonSchool @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/cf7toyv6mk4o/assignment/wrlog0voobj7/dashboard/?tab=instructions\"> NewtonSchool </a>@competition",
 				"May 1 @ 8:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"May 4 @ 11:30 am @ Math @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 4 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"May 6 @ 9:30 am @ OS @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 6 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"May 9 @ 9:30 am @ Network @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
+				"May 11 @ 9:30 am @ Java @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 11 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"May 13 @ 9:30 am @ AI @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 15 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"May 16 @ 2:30 pm @ OS @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
+				"May 18 @ 9:30 am @ DSA @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 18 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"May 20 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"May 22 @ 4:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round C </a> @competition",
@@ -102,7 +117,7 @@
 				"Jun 27 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 2</a> @competition",
 				"Jun 29 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Jul 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
-				"Jul 10 @ - @ Summer Training Completion @ - @ - @Deadline",
+				"Jul 10 @ - @ Summer Training Completion @ - @ - @ Deadline",
 				"Jul 10 @ 10:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round D </a> @competition",
 				"Aug 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round E </a> @competition",
 				"Aug 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @competition",
@@ -118,8 +133,8 @@
 					case "LPU":
 						tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
 						break;
-					case "Deadline":
-						tableStr+="<tr class=\"Deadline\"><td>"+(task+1)+"</td>";
+					case "LiveEvent":
+						tableStr+="<tr class=\"LiveEvent\"><td>"+(task+1)+"</td>";
 						break;
 					case "competition":
 						tableStr+="<tr class=\"competition\"><td>"+(task+1)+"</td>";

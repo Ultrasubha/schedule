@@ -54,12 +54,14 @@ th{
 }
 .LPU {
 	background-color: RosyBrown;
+	color: firebrick;
+	text-shadow: 1px 1px black;
 	font-style: italic;
 }
-.Deadline {
+.LiveEvent {
 	background-color: lightgray;
 	font-weight: bold;
-	/*letter-spacing: 2px;*/
+	letter-spacing: 1px;
 }
 .futsu {
 	background-color: silver;
