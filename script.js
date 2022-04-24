@@ -80,7 +80,7 @@
 			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
 				//"Date @ Time @ Task @ Duration @ Venue",
-				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",.
+				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a>",
 				"Apr 27 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"Apr 29 @ 9:00 pm @ NewtonSchool @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/cf7toyv6mk4o/assignment/wrlog0voobj7/dashboard/?tab=instructions\"> NewtonSchool </a>@competition",
 				"May 1 @ 8:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
