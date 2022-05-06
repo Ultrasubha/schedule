@@ -88,9 +88,6 @@
 					3) competition = Any Coding competition/ Hackathon etc
 					4) Blank/Anything = Any other event
 				*/
-				"May 4 @ 11:30 am @ Math @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 4 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 6 @ 9:30 am @ OS @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 6 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"May 9 @ 9:30 am @ Network @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 11 @ 9:30 am @ Java @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
