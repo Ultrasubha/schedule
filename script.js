@@ -94,7 +94,7 @@
 				"May 11 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"May 13 @ 9:30 am @ AI @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 15 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 16 @ 2:30 pm @ OS @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
+				"May 16 @ 2:30 pm @ PEV @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 18 @ 9:30 am @ DSA @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
 				"May 18 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
 				"May 20 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
