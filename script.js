@@ -65,7 +65,7 @@
 			"Have faith in your conviction",
 			"Let's Conquor","Today we Rule",
 			"Divide and Conquor",
-			"Let's bring some chaos",
+			"Let's introduce some chaos",
 			"Everything should be in order. Let's Sort",
 			"What's today's plan Sir?",
 			"Will we be doing a new project today Sir?",
@@ -77,67 +77,59 @@
 			"We are the rulers of this world"];
 			document.getElementById("Bani").innerHTML = "<h2>" + getRandomItem(bani) + "</h2>";
 
-			tableStr = "<tr><th>S.No.</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
+			tableStr = "<tr><th>Day</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
 			const Tasktuples = [
-				//"Date @ Time @ Task @ Duration @ Venue @ Type",
-				//"Date @ Time @ Task @ Duration @ <a href=\" \"> Name </a> @ Type",
-				/*
+				/*	"Date @ Time @ Task @ Duration @ <a href=\" \"> Venue </a> @ Type",
+
 					Conventions (for last space after @) -->
 					1) LPU = Anything LPU related (Exam/assignment/CA etc)
 					2) LiveEvent = Seminar/Webinar/Any Live session
 					3) competition = Any Coding competition/ Hackathon etc
 					4) Blank/Anything = Any other event
 				*/
-				"May 6 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 9 @ 9:30 am @ Network @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 11 @ 9:30 am @ Java @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 11 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 13 @ 9:30 am @ AI @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 15 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 16 @ 2:30 pm @ PEV @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 18 @ 9:30 am @ DSA @ 1.5hrs @ <a href=\"https://myclass.lpu.in\">MyClass</a>@LPU",
-				"May 18 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 20 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"May 22 @ 4:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round C </a> @competition",
-				"May 25 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 5 @ 8:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 8 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 10 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 15 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 19 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 22 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 24 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jun 27 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 2</a> @competition",
-				"Jun 29 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
-				"Jul 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
-				"Jul 10 @ - @ Summer Training Completion @ - @ - @ Deadline",
-				"Jul 10 @ 10:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round D </a> @competition",
-				"Aug 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round E </a> @competition",
-				"Aug 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @competition",
-				"Sep 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round F </a> @competition",
-				"Oct 15 @ 5:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round G </a> @competition",
-				"Nov 12 @ 8:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round H </a> @competition",
+				"2022 6 19 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"2022 6 22 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"2022 6 24 @ 3:00 pm @ CodeChef @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"2022 6 27 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 2</a> @competition",
+				"2022 6 29 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@competition",
+				"2022 7 3 @ 11:00 am @ JLPT @ 2hr 10 mins @ Kolkata",
+				"2022 7 10 @ 11:00 am @ Summer Training Completion @ - @ - @ Deadline",
+				"2022 7 10 @ 10:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round D </a> @competition",
+				"2022 8 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round E </a> @competition",
+				"2022 8 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @competition",
+				"2022 9 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round F </a> @competition",
+				"2022 10 15 @ 5:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round G </a> @competition",
+				"2022 11 12 @ 8:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round H </a> @competition",
 			];
+			
+			var today = new Date();
+			const convertTime12to24 = time12h => {const [time, modifier] = time12h.split(" "); let [hours, minutes] = time.split(":");if (hours === "12") hours = "00"; if (modifier === "pm") hours = parseInt(hours, 10) + 12; return `${hours}:${minutes}`;};
 			
 			for(task=0;task<Tasktuples.length;task++){
 				let tupleStrArr = Tasktuples[task].split("@");
+				let dT = tupleStrArr[0] + convertTime12to24(tupleStrArr[1].trim()); // date & time gets appended to make date
+				let date = new Date(dT);
+				if (date<today) continue;	// compares till millisecond
+
+				let day = date.toString().slice(0, 3);
+				let slicedDate = date.toString().slice(3, 10);
 
 				switch (tupleStrArr[5]) {
 					case "LPU":
-						tableStr+="<tr class=\"LPU\"><td>"+(task+1)+"</td>";
+						tableStr+="<tr class=\"LPU\"><td>"+day+"</td><td>"+slicedDate+"</td>";
 						break;
 					case "LiveEvent":
-						tableStr+="<tr class=\"LiveEvent\"><td>"+(task+1)+"</td>";
+						tableStr+="<tr class=\"LiveEvent\"><td>"+day+"</td><td>"+slicedDate+"</td>";
 						break;
 					case "competition":
-						tableStr+="<tr class=\"competition\"><td>"+(task+1)+"</td>";
+						tableStr+="<tr class=\"competition\"><td>"+day+"</td><td>"+slicedDate+"</td>";
 						break;
 					default:
-						tableStr+="<tr class=\"futsu\"><td>"+(task+1)+"</td>";
+						tableStr+="<tr class=\"futsu\"><td>"+day+"</td><td>"+slicedDate+"</td>";
 						break;
 				}
 				
-				for(column=0;column<5;column++)
+				for(column=1;column<5;column++)
 						tableStr+="<td>"+tupleStrArr[column]+"</td>";
 				tableStr+="</tr>";
 				
