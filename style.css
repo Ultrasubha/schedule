@@ -59,6 +59,8 @@ th{
 }
 .LiveEvent {
 	background-color: lightgray;
+	color: maroon;
+	text-shadow: 1px 1px MidnightBlue;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
@@ -66,8 +68,12 @@ th{
 	background-color: silver;
 	font-weight: bold;
 }
-.competition {
+.codechefStyle {
 	background-color: lightgreen;
+	font-weight: bold;
+}
+.LeetCodeStyle {
+	background-color: lightgoldenrodyellow;
 	font-weight: bold;
 }
 
