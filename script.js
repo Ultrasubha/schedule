@@ -150,35 +150,26 @@
 			
 			var today = new Date();
 			const convertTime12to24 = time12h => {const [time, modifier] = time12h.split(" "); let [hours, minutes] = time.split(":");if (hours === "12") hours = "00"; if (modifier === "pm") hours = parseInt(hours, 10) + 12; return `${hours}:${minutes}`;};
-			
+			let timeChangedToDash = false;
+
 			for(task=0;task<Tasktuples.length;task++){
 				let tupleStrArr = Tasktuples[task].split("@");
-				if(tupleStrArr[1]==" - ") tupleStrArr[1] = " 11:59 pm ";
+				if(tupleStrArr[1]==" - ") {tupleStrArr[1] = " 11:59 pm ";timeChangedToDash = true;}
 				let dT = tupleStrArr[0] + convertTime12to24(tupleStrArr[1].trim()); // date & time gets appended to make date
 				let date = new Date(dT);
 				if (date<today) continue;	// compares till millisecond
 
 				let day = date.toString().slice(0, 3);
 				let slicedDate = date.toString().slice(3, 10);
-
 				switch (tupleStrArr[5]) {
-					case "LPU":
-						tableStr+="<tr class=\"LPU\"><td>"+day+"</td><td>"+slicedDate+"</td>";
-						break;
-					case "LiveEvent":
-						tableStr+="<tr class=\"LiveEvent\"><td>"+day+"</td><td>"+slicedDate+"</td>";
-						break;
-					case "codechefStyle":
-						tableStr+="<tr class=\"codechefStyle\"><td>"+day+"</td><td>"+slicedDate+"</td>";
-						break;
-					case "LeetCodeStyle":
-						tableStr+="<tr class=\"LeetCodeStyle\"><td>"+day+"</td><td>"+slicedDate+"</td>";
-						break;
-					default:
-						tableStr+="<tr class=\"futsu\"><td>"+day+"</td><td>"+slicedDate+"</td>";
-						break;
+					case "LPU":				tableStr+="<tr class=\"LPU\"><td>"+day+"</td><td>"+slicedDate+"</td>"; break;
+					case "LiveEvent":		tableStr+="<tr class=\"LiveEvent\"><td>"+day+"</td><td>"+slicedDate+"</td>"; break;
+					case "codechefStyle":	tableStr+="<tr class=\"codechefStyle\"><td>"+day+"</td><td>"+slicedDate+"</td>"; break;
+					case "LeetCodeStyle":	tableStr+="<tr class=\"LeetCodeStyle\"><td>"+day+"</td><td>"+slicedDate+"</td>"; break;
+					default:				tableStr+="<tr class=\"futsu\"><td>"+day+"</td><td>"+slicedDate+"</td>"; break;
 				}
 				
+				if(timeChangedToDash) {tupleStrArr[1] = " - ";timeChangedToDash = false; }
 				for(column=1;column<5;column++)
 						tableStr+="<td>"+tupleStrArr[column]+"</td>";
 				tableStr+="</tr>";
