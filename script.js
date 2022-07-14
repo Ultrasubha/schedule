@@ -109,31 +109,31 @@
 				"2022 8 17 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 20 @ 8:00 pm @ LeetCode BiWeekly contest 85 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 8 21 @ 8:00 am @ LeetCode Weekly contest 307 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 8 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcodechefStyles.withgoogle.com/kickstart/schedule\"> Round E </a> @LiveEvent",
+				"2022 8 21 @ 9:00 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round E </a> @LiveEvent",
 				"2022 8 21 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 24 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 26 @ 3:00 pm @ CodeChef Long Challenge @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 28 @ 8:00 am @ LeetCode Weekly contest 308 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 8 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcodechefStyles.withgoogle.com/kickstart/schedule\"> Practice 3</a> @LiveEvent",
+				"2022 8 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @LiveEvent",
 				"2022 8 31 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 9 3 @ 8:00 pm @ LeetCode BiWeekly contest 86 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 4 @ 8:00 am @ LeetCode Weekly contest 309 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 11 @ 8:00 am @ LeetCode Weekly contest 310 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 17 @ 8:00 pm @ LeetCode BiWeekly contest 87 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 18 @ 8:00 am @ LeetCode Weekly contest 311 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 9 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcodechefStyles.withgoogle.com/kickstart/schedule\"> Round F </a> @LiveEvent",
+				"2022 9 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round F </a> @LiveEvent",
 				"2022 9 25 @ 8:00 am @ LeetCode Weekly contest 312 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 1 @ 8:00 pm @ LeetCode BiWeekly contest 88 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 2 @ 8:00 am @ LeetCode Weekly contest 313 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 9 @ 8:00 am @ LeetCode Weekly contest 314 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 10 15 @ 5:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcodechefStyles.withgoogle.com/kickstart/schedule\"> Round G </a> @LiveEvent",
+				"2022 10 15 @ 5:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round G </a> @LiveEvent",
 				"2022 10 15 @ 8:00 pm @ LeetCode BiWeekly contest 89 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 16 @ 8:00 am @ LeetCode Weekly contest 315 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 23 @ 8:00 am @ LeetCode Weekly contest 316 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 29 @ 8:00 pm @ LeetCode BiWeekly contest 90 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 30 @ 8:00 am @ LeetCode Weekly contest 317 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 11 6 @ 8:00 am @ LeetCode Weekly contest 318 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 11 12 @ 8:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcodechefStyles.withgoogle.com/kickstart/schedule\"> Round H </a> @LiveEvent",
+				"2022 11 12 @ 8:30 am @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round H </a> @LiveEvent",
 				"2022 11 12 @ 8:00 pm @ LeetCode BiWeekly contest 91 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 11 13 @ 8:00 am @ LeetCode Weekly contest 319 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 11 20 @ 8:00 am @ LeetCode Weekly contest 320 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
@@ -173,7 +173,6 @@
 				for(column=1;column<5;column++)
 						tableStr+="<td>"+tupleStrArr[column]+"</td>";
 				tableStr+="</tr>";
-				
 			}
 			document.getElementById("scheduler1").innerHTML = tableStr;
 	}
