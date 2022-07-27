@@ -87,15 +87,6 @@
 					3) codechefStyle = Any Coding codechefStyle/ Hackathon etc
 					4) Blank/Anything = Any other event
 				*/
-				"2022 7 13 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
-				"2022 7 17 @ 8:00 am @ LeetCode Weekly contest 302 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 7 17 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
-				"2022 7 17 @ - @ Java Test @ - @ - @LPU",
-				"2022 7 18 @ - @ Java Test @ - @ - @LPU",
-				"2022 7 20 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
-				"2022 7 22 @ 3:00 pm @ CodeChef Long Challenge @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
-				"2022 7 23 @ 8:00 pm @ LeetCode BiWeekly contest 83 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 7 24 @ 8:00 am @ LeetCode Weekly contest 303 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 7 27 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 7 29 @ 9:00 pm @ Newton's coding challenge July 2022 @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/wxug4046azih/assignment/wf2d879rtxh5/dashboard/?tab=instructions\">NewtonSchool</a>@LiveEvent",
 				"2022 7 31 @ 8:00 am @ LeetCode Weekly contest 304 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
