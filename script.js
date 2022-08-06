@@ -87,13 +87,8 @@
 					3) codechefStyle = Any Coding codechefStyle/ Hackathon etc
 					4) Blank/Anything = Any other event
 				*/
-				"2022 7 27 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
-				"2022 7 29 @ 9:00 pm @ Newton's coding challenge July 2022 @ 2.5hrs @ <a href=\"https://my.newtonschool.co/course/wxug4046azih/assignment/wf2d879rtxh5/dashboard/?tab=instructions\">NewtonSchool</a>@LiveEvent",
-				"2022 7 31 @ 8:00 am @ LeetCode Weekly contest 304 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 8 3 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 6 @ 8:00 pm @ LeetCode BiWeekly contest 84 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 8 7 @ 8:00 am @ LeetCode Weekly contest 305 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 8 7 @ 8:00 pm @ CodeChef @ 2.5hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 10 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 12 @ 3:00 pm @ CodeChef Long Challenge @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 14 @ 8:00 am @ LeetCode Weekly contest 306 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
@@ -106,9 +101,10 @@
 				"2022 8 26 @ 3:00 pm @ CodeChef Long Challenge @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 28 @ 8:00 am @ LeetCode Weekly contest 308 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 8 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @LiveEvent",
-				"2022 8 31 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 9 3 @ 8:00 pm @ LeetCode BiWeekly contest 86 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 4 @ 8:00 am @ LeetCode Weekly contest 309 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+				"2022 9 4 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
+				"2022 9 7 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 9 11 @ 8:00 am @ LeetCode Weekly contest 310 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 17 @ 8:00 pm @ LeetCode BiWeekly contest 87 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 18 @ 8:00 am @ LeetCode Weekly contest 311 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
