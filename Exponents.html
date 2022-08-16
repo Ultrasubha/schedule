@@ -1,0 +1,52 @@
+<!--
+Created By Subhadeep Mandal
+Dated : 25/1/2022
+You are free to Modify or Redistribute it as you please but please give due credits wherever necessary.
+Thank you.
+Hope this was of some use to you -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exponents</title>
+	<link rel="icon" type="image/gif/png" href="cat1.png">
+    <link rel="stylesheet" href="standardized.css">
+</head>
+<body>
+<h2> Exponents Chart </h2>
+<style>
+    body{
+        font-size: x-large;
+    }
+</style>
+<table>
+	<tbody>
+		<tr>
+			<th>Num</th>
+			<th>Num<sup>2</sup></th>
+            <th>Num<sup>3</sup></th>
+            <th>Num<sup>4</sup></th>
+            <th>Num<sup>5</sup></th>
+            <th>Num<sup>6</sup></th>
+		</tr>
+		<script>
+            s="";
+            for(let i=2;i<30;i++){
+                let val=i;
+                s+="<tr><td>"+val+"</td>";
+                for(let j=0;j<5;j++){
+                    val = val*i;
+                    s+="<td>"+val+"</td>";
+                }
+                s+="</tr>";
+            }
+            document.write(s);
+        </script>
+	</tbody>
+</table>
+<footer>A product of Guava_Slice.<br/>@Author:Subhadeep Mandal</footer>
+</body>
+</html>
+<!-- More about unicode
+---- https://www.ssec.wisc.edu/~tomw/java/unicode.html#x2200 -->
