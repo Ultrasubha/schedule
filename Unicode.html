@@ -1,0 +1,83 @@
+<!--
+Created By Subhadeep Mandal
+Dated : 25/1/2022
+You are free to Modify or Redistribute it as you please but please give due credits wherever necessary.
+Thank you.
+Hope this was of some use to you -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unicode</title>
+	<link rel="icon" type="image/gif/png" href="cat1.png">
+    <link rel="stylesheet" href="standardized.css">
+</head>
+<body>
+<h2> Unicode Chart </h2>
+<table>
+	<tbody>
+		<tr>
+			<th>零</th>
+			<th>一</th>
+			<th>二</th>
+			<th>三</th>
+			<th>四</th>
+			<th>五</th>
+			<th>六</th>
+			<th>七</th>
+			<th>八</th>
+			<th>九</th>
+		</tr>
+		<script>
+			let start = 33 , end = 9999;	//max val of end = 1114109 or (10FFFD)hex
+			var closed = true;
+			var count = 0;
+
+			function garbage (Uninum) {
+				if(i>1479 && i<1488) return true;
+				else if(i>2047 && i<2208) return true;
+				else if(i>2237 && i<2260) return true;
+				else if(i>3807 && i<3840) return true;
+				else if(i>4052 && i<4096) return true;
+				else if(i>6263 && i<6272) return true;
+				else if(i>6389 && i<6480) return true;
+				else if(i>6516 && i<6528) return true;
+				else if(i>6683 && i<7248) return true;
+				else if(i>7295 && i<7312) return true;
+				else if(i>7359 && i<7376) return true;
+				else if(i>7626 && i<7678) return true;
+				else if(i>8190 && i<8208) return true;
+				else if(i>8286 && i<8320) return true;
+				else if(i>8383 && i<8400) return true;
+				else if(i>8432 && i<8448) return true;
+				else if(i>8587 && i<8592) return true;
+				else if(i>9210 && i<9216) return true;
+				else if(i>9254 && i<9280) return true;
+				else if(i>9290 && i<9312) return true;
+				else return false;
+			}
+
+			for (var i = start; i <= end; i++) {
+				if(garbage(i)) continue;
+				else{
+					if(count>9) count=0;											//initializes counter
+					if (count==0) {document.write("<tr>");		closed = false;}	//row begins
+					else if (count==10) {document.write("</tr>");closed = true;}	//row ends
+					document.write("<td>&#"+i+"<hr><u>(\&\#\ "+i+")</u></td>");		//prints content
+					count++;
+				}
+			}
+
+			if (closed==false) {
+				document.write("</tr>");
+				closed = true;
+			}
+		</script>
+	</tbody>
+</table>
+<footer>A product of Guava_Slice.<br/>@Author:Subhadeep Mandal</footer>
+</body>
+</html>
+<!-- More about unicode
+---- https://www.ssec.wisc.edu/~tomw/java/unicode.html#x2200 -->
