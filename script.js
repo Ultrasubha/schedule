@@ -101,6 +101,7 @@
 				"2022 8 26 @ 3:00 pm @ CodeChef Long Challenge @ 3days @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
 				"2022 8 28 @ 8:00 am @ LeetCode Weekly contest 308 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 8 29 @ 9:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Practice 3</a> @LiveEvent",
+				"2022 8 31 @ 8:00 pm @ NewtonSchool @ 3hrs @ <a href=\"https://my.newtonschool.co/course/50fhs5cbvl4y/assignment/6e92pf8lil8x/dashboard/?tab=instructions\">NewtonSchool</a>@codechefStyle",
 				"2022 9 3 @ 8:00 pm @ LeetCode BiWeekly contest 86 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 4 @ 8:00 am @ LeetCode Weekly contest 309 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 4 @ 8:00 pm @ CodeChef @ 3hrs @ <a href=\"https://www.codechef.com\">CodeChef</a>@codechefStyle",
