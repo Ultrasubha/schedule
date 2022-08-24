@@ -19,6 +19,21 @@ Hope this was of some use to you -->
     body{
         font-size: x-large;
     }
+    .square{
+        color: PaleVioletRed;
+    }
+    .cube{
+        color: navy;
+    }
+    .power4{
+        color: DarkSlateGrey;
+    }
+    .power5{
+        color: Red;
+    }
+    .power6{
+        color: RebeccaPurple;
+    }
 </style>
 <table>
 	<tbody>
@@ -37,7 +52,26 @@ Hope this was of some use to you -->
                 s+="<tr><td>"+val+"</td>";
                 for(let j=0;j<5;j++){
                     val = val*i;
-                    s+="<td>"+val+"</td>";
+                    switch(j){
+                        case 0:
+                        s+="<td class='square'>";
+                        break;
+                        case 1:
+                        s+="<td class='cube'>";
+                        break;
+                        case 2:
+                        s+="<td class='power4'>";
+                        break;
+                        case 3:
+                        s+="<td class='power5'>";
+                        break;
+                        case 4:
+                        s+="<td class='power6'>";
+                        break;
+                    }
+                    if(i<10) s+=i;
+                    else s+="("+i+")";
+                    s+="<sup>"+(j+2)+"</sup> = "+val+"</td>";
                 }
                 s+="</tr>";
             }
