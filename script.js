@@ -91,6 +91,7 @@
 				"2022 9 18 @ 8:00 am @ LeetCode Weekly contest 311 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 9 18 @ 10:30 pm @ Google KickStart @ 3hrs @ <a href=\"https://codingcompetitions.withgoogle.com/kickstart/schedule\"> Round F </a> @LiveEvent",
 				"2022 9 25 @ 8:00 am @ LeetCode Weekly contest 312 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+				"2022 9 28 @ 9:00 pm @ Newton's September Coding Contest @ 3hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
 				"2022 10 1 @ 8:00 pm @ LeetCode BiWeekly contest 88 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 2 @ 8:00 am @ LeetCode Weekly contest 313 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
 				"2022 10 9 @ 8:00 am @ LeetCode Weekly contest 314 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
