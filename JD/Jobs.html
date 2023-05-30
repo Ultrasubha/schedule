@@ -1,0 +1,39 @@
+<html>
+<head>
+<script>
+    // Import the filesystem module
+
+
+</script>
+</head>
+<body >
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body bgcolor="#aabbcc">
+    <!-- HTML body goes here  -->
+
+    <!-- Notice how I've set type="module" -->
+    <script type="module">
+        const fs = require("fs");
+
+let directory_name = "example_dir";
+
+// Function to get current filenames
+// in directory
+let filenames = fs.readdirSync(directory_name);
+
+console.log("\nFilenames in directory:");
+filenames.forEach((file) => {
+	console.log("File:", file);
+});
+    </script>
+  </body>
+</html>

@@ -78,7 +78,7 @@
 			document.getElementById("Bani").innerHTML = "<h2>" + getRandomItem(bani) + "</h2>";
 
 			tableStr = "<tr><th>Day</th><th>Date</th><th>Time</th><th>Task</th><th>Duration</th><th>Venue</th></tr>";
-			const Tasktuples = [
+
 				/*	"Date @ Time @ Task @ Duration @ <a href=\" \"> Venue </a> @ Type",
 
 					Conventions (for last space after @) -->
@@ -87,17 +87,22 @@
 					3) codechefStyle = Any Coding codechefStyle/ Hackathon etc
 					4) Blank/Anything = Any other event
 				*/
-				"2022 11 30 @ 9:00 pm @ Newton's November Coding Contest @ 2.5hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
-				"2022 12 4 @ 11:00 am @ JLPT @ 3hrs @ Delhi",
-				"2022 12 10 @ 8:00 pm @ LeetCode BiWeekly contest 93 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 12 11 @ 8:00 am @ LeetCode Weekly contest 323 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 12 16 @ 9:00 pm @ Newton's Grand Coding Contest 2022 @ 3hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
-				"2022 12 18 @ 8:00 am @ LeetCode Weekly contest 324 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 12 24 @ 8:00 pm @ LeetCode BiWeekly contest 94 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2022 12 25 @ 8:00 am @ LeetCode Weekly contest 325 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
-				"2023 1 26 @ 9:00 pm @ Newton's Grand Coding Contest 2023 @ 3hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
-			];
-			
+				const Tasktuples = [
+					"2023 6 2 @ 2:30 pm @ NLP ETE @ 3hrs @ 34-402 @LPU",
+					"2023 6 2 @ 9:30 am @ NLP ETE @ 3hrs @ 34-402 @LPU",
+					"2023 6 3 @ 9:30 am @ RPA ETE @ 3hrs @ 36-905 @LPU",
+					"2023 7 2 @ 11:00 am @ JLPT @ 3hrs @ Kolkata",
+					"2023 12 3 @ 11:00 am @ JLPT f @ 3hrs @ Kolkata"
+				];
+			/*"2022 11 30 @ 9:00 pm @ Newton's November Coding Contest @ 2.5hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
+				
+			"2022 12 10 @ 8:00 pm @ LeetCode BiWeekly contest 93 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+			"2022 12 11 @ 8:00 am @ LeetCode Weekly contest 323 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+			"2022 12 16 @ 9:00 pm @ Newton's Grand Coding Contest 2022 @ 3hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
+			"2022 12 18 @ 8:00 am @ LeetCode Weekly contest 324 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+			"2022 12 24 @ 8:00 pm @ LeetCode BiWeekly contest 94 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+			"2022 12 25 @ 8:00 am @ LeetCode Weekly contest 325 @ 1.5hrs @ <a href=\"https://leetcode.com/contest/\">LeetCode</a>@LeetCodeStyle",
+			"2023 1 26 @ 9:00 pm @ Newton's Grand Coding Contest 2023 @ 3hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",*/
 			var today = new Date();
 			const convertTime12to24 = time12h => {const [time, modifier] = time12h.split(" "); let [hours, minutes] = time.split(":");if (hours === "12") hours = "00"; if (modifier === "pm") hours = parseInt(hours, 10) + 12; return `${hours}:${minutes}`;};
 			let timeChangedToDash = false;
@@ -105,9 +110,8 @@
 			for(task=0;task<Tasktuples.length;task++){
 				let tupleStrArr = Tasktuples[task].split("@");
 				if(tupleStrArr[1]==" - ") {tupleStrArr[1] = " 11:59 pm ";timeChangedToDash = true;}
-				let dT = tupleStrArr[0] + convertTime12to24(tupleStrArr[1].trim()); // date & time gets appended to make date
-				let date = new Date(dT);
-				if (date<today) continue;	// compares till millisecond
+				let date = new Date(tupleStrArr[0] + convertTime12to24(tupleStrArr[1].trim()));
+				if (date<today) continue;
 
 				let day = date.toString().slice(0, 3);
 				let slicedDate = date.toString().slice(3, 10);
