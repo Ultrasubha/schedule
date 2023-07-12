@@ -91,9 +91,9 @@
 					"2023 7 12 @ 7:00 pm @ CELIGO test @ 2hrs @ Home @LPU",
 					"2023 7 13 @ 9:00 am @ SABRES GROUP @ 2-3 hrs @ Smt. Shanti Devi Mittal Auditorium @LPU",
 					"2023 7 13 @ 12:00 pm @ Mock Interveiw @ 1hrs @ 38-711@LPU",
-					"2023 7 13 @ 7:00 pm @ SABRES GROUP test @ 2hrs @ Home @LPU",
+					"2023 7 13 @ 7:00 pm @ STRIDE ONE test @ 2hrs @ Home @LPU",
 					"2023 7 15 @ 7:00 pm @ AMCAT test @ 2hrs @ Home @LPU",
-					"2023 7 16 @ 7:00 pm @ 	MERCER METTL test @ 2hrs @ Home @LPU",
+					"2023 7 16 @ 7:00 pm @ MERCER METTL test @ 2hrs @ Home @LPU",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 			/*"2022 11 30 @ 9:00 pm @ Newton's November Coding Contest @ 2.5hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
