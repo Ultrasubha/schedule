@@ -88,15 +88,10 @@
 					4) Blank/Anything = Any other event
 				*/
 				const Tasktuples = [
-					"2023 7 12 @ 7:00 pm @ CELIGO test @ 2hrs @ Home @LPU",
-					"2023 7 13 @ 9:00 am @ SABRES GROUP @ 2-3 hrs @ Smt. Shanti Devi Mittal Auditorium @LPU",
-					"2023 7 13 @ 12:00 pm @ Mock Interveiw @ 1hrs @ 38-711@LPU",
-					"2023 7 13 @ 7:00 pm @ STRIDE ONE test @ 2hrs @ Home @LPU",
-					"2023 7 15 @ 7:00 pm @ AMCAT test @ 2hrs @ Home @LPU",
-					"2023 7 16 @ 7:00 pm @ MERCER METTL test @ 2hrs @ Home @LPU",
+					"2023 7 16 @ - @ MERCER METTL test @ 2hrs @ Home @LPU",
 					"2023 7 17 @ 1:15 pm @ DARWIN BOX @ 2hrs @ 34-111 @LPU",
 					"2023 7 18 @ - @ REACT test @ - @ - @LPU",
-					"2023 7 25 @ 1:00 pm @ Machine Learning Re @ 3hrs @ Home @LPU",
+					"2023 7 25 @ - @ Machine Learning Re @ 3hrs @ Home @LPU",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 				// Would be great if I provide a counter of how many tasks completed and efficiency. Can be really be a booster for reassurance
