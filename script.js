@@ -94,6 +94,8 @@
 					"2023 7 13 @ 7:00 pm @ STRIDE ONE test @ 2hrs @ Home @LPU",
 					"2023 7 15 @ 7:00 pm @ AMCAT test @ 2hrs @ Home @LPU",
 					"2023 7 16 @ 7:00 pm @ MERCER METTL test @ 2hrs @ Home @LPU",
+					"2023 7 17 @ 1:15 pm @ DARWIN BOX @ 2hrs @ 34-111 @LPU",
+					"2023 7 25 @ 1:00 pm @ Machine Learning Re @ 3hrs @ Home @LPU",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 			/*"2022 11 30 @ 9:00 pm @ Newton's November Coding Contest @ 2.5hrs @ <a href=\"https://my.newtonschool.co/contest/all\">NewtonSchool</a>@LiveEvent",
