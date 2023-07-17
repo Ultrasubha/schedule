@@ -91,7 +91,7 @@
 					"2023 7 16 @ - @ MERCER METTL test @ 2hrs @ Home @LPU",
 					"2023 7 17 @ 1:15 pm @ DARWIN BOX @ 2hrs @ 34-111 @LPU",
 					"2023 7 18 @ - @ REACT test @ - @ - @LPU",
-					"2023 7 25 @ - @ Machine Learning Re @ 3hrs @ Home @LPU",
+					"2023 7 25 @ 4:00pm @ Machine Learning Re @ 3hrs @ Home @LPU",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 				// Would be great if I provide a counter of how many tasks completed and efficiency. Can be really be a booster for reassurance
