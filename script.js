@@ -90,7 +90,7 @@
 				const Tasktuples = [
 					"2023 7 31 @ 8:30 am @ (PPT) KPIT TECHNOLOGIES @ 5hrs @ Smt. Shanti Devi Mittal Auditorium @LPU",
 					"2023 7 31 @ 11:00 am @ (KYC) ACCENTURE @ 1hrs @ <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzk1M2I4ZTYtZmEwNS00NGY4LWE4YjktOTA5YmI1MjZhNGE1%40thread.v2/0?context=%7b%22Tid%22%3a%224b2e2f78-30f9-4de9-a6eb-a7d268e2a17a%22%2c%22Oid%22%3a%2279a24f2c-9748-4058-8791-6d55d6b19c22%22%7d\">Link</a> @LPU",
-					"2023 8 16 @ 7:00 pm @ Cancel Amazon Prime @ - @ - @none",
+					"2023 9 9 @ 11:00 am @ Amazon ML test @ 2hrs @ <a href=\"https://xathon.mettl.com/event/amazonmlsummerschool\">mettl</a> @none",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 				// Would be great if I provide a counter of how many tasks completed and efficiency. Can be really be a booster for reassurance
