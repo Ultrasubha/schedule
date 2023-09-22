@@ -88,9 +88,9 @@
 					4) Blank/Anything = Any other event
 				*/
 				const Tasktuples = [
-					"2023 7 31 @ 8:30 am @ (PPT) KPIT TECHNOLOGIES @ 5hrs @ Smt. Shanti Devi Mittal Auditorium @LPU",
-					"2023 7 31 @ 11:00 am @ (KYC) ACCENTURE @ 1hrs @ <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzk1M2I4ZTYtZmEwNS00NGY4LWE4YjktOTA5YmI1MjZhNGE1%40thread.v2/0?context=%7b%22Tid%22%3a%224b2e2f78-30f9-4de9-a6eb-a7d268e2a17a%22%2c%22Oid%22%3a%2279a24f2c-9748-4058-8791-6d55d6b19c22%22%7d\">Link</a> @LPU",
-					"2023 9 9 @ 11:00 am @ Amazon ML test @ 2hrs @ <a href=\"https://register.gotowebinar.com/recording/8468683082265549655\">webinar</a> @none",
+					"2023 9 12 @ 2:00 pm @ WISSEN TECHNOLOGY (PPT + Test) @ 3hrs @ <a href=\"http://email.click2redirect.me/ls/click?upn=6Zx57d02W-2Bi-2BJHqESYwSXSXxtnog0HYPjT5PulZ5JYgHVglzwH36rPUaucgQt-2BsTr3w6DbluEG10d6GAZkBtmoJ8dzpOxliBB-2BcGbpylFNabVHmNN2Im5ui7UdTYFodNRl9br7o6MCjxcb-2FS798jLHeQZ0LTQ7bpktfjc3NirGZMGpKc-2B8hubM-2FH-2BmkErT8T2HXXCk38pgRXMrOy34YRncAB06l8-2FsvehEQqRkIoTzU4cpXbhy-2B8cN-2Fgi8-2BRSXxd0pj20kIArD6m5EhXADFA455ZP8fp-2FECrv1NgeBNdtUiih9xZWa3v-2FUXB6f1I4fbhc5225LhH9B09wdsvOPuLYAkHeZxd0Dijc8ymns-2BKF365V877KCkti0ik7nfjLQZKIPrWfraK7PqfN3abWvoIA72SMKihD6Dyx2wnESZvHWCfJ4eJ-2B1iKT0-2BpO8wHQHPCXIj-2FNyOcfDhfRSF982Ku8A-3D-3DZhGb_q2b7oOBWagP3wAooQxcAsqqeO-2FKKnHTvJAY8SSJ4KKHNSfWIx9A-2Fdp5ZWNh1Vb3p4iwknNLXV3tzLCGy65PDfu4u0McZLxviy0RTQSdWONOtxCA2wbwXUzQ73VXpkZBeWRxUk9b24UZRQZw520sd0WnZX3LV7TnHjwIqlCeRH1G2X3Gu02DbLpwUM6W5PHddXDw3cAjMElEDwVL7XflKr4sMXkzshfd71jg1Tg-2FoliQf7YYNFxm5Qpi52JirEFPMefm8FL6XTvr6Y6yzxRWqMAYlBwwzoPVWDVNxvhqSaVrzfI6RuLXKl6WK8v7sRpQDdFJe6ajVrB0xRqqI7uop-2BhZDigpENrpg1qg3EBDf9T8tNZAGVZLlb6Oa-2FdOkr9Nvql7mAIqd4RR5Sg2aTaNCJJsnv-2B0KoJtlifeFqMmSdHR0vgj4RjI3YmfcVQ2k9REw1YDvgp2eyir6rVPSitlH1q2teKd4Vt6MiVLp0q5jlGvKt-2FHMRqTaSXH4Sx6rZz48e0kYP5DSsE-2BVlfeiSa98joNX9bP4WxChGMNZYDaVUW-2FGQA5YwihUmztVnWJEzQB3VEejma70PPSDI9RkHlxX3A-3D-3D\">Gmeet</a> @none",
+					"2023 9 12 @ 6:00 pm @ EDVEDHA (batch23) @ 1hrs @ <a href=\"https://meet.google.com/joz-imrd-uca\">Gmeet</a> @none",
+					"2023 9 13 @ 11:00 am @ Accenture @ 2hrs @ 38-808 @none",
 					"2023 12 3 @ 1:00 pm @ JLPT @ 3hrs @ Kolkata"
 				];
 				// Would be great if I provide a counter of how many tasks completed and efficiency. Can be really be a booster for reassurance
